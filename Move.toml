@@ -1,0 +1,15 @@
+[package]
+name = "age-verification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xa364400e8c44dd10206e29542677225c8b54e5b0a0bb9c6e36bdba996a849215"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
